@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0.0625rem 0.125rem 0.0625rem rgba(0, 0, 0, 0.1490196078);
+  border-radius: 20px;
+  padding: 12px;
+}
+.container span {
+  font-weight: bold;
+}
+.container h3 {
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 15px;
+}
+.container p {
+  font-weight: bold;
+  font-size: 12px;
+}
+.container .quantityContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=product.module.css.map */

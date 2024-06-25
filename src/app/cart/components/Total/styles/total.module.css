@@ -1,0 +1,31 @@
+.cartResume {
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.0625rem 0.125rem 0.0625rem rgba(0, 0, 0, 0.1490196078);
+  border-radius: 0.5rem;
+  position: sticky;
+  top: 2rem;
+}
+.cartResume .cartResumeDetails {
+  margin: 1rem 0;
+  padding: 1rem 0;
+  border-bottom: 1px solid #000;
+  border-top: 1px solid #000;
+}
+.cartResume .cartResumeRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+}
+.cartResume .cartResumeRow p:first-child {
+  font-weight: 700;
+}
+.cartResume .cartResumeRow p span {
+  font-weight: normal;
+}
+.cartResume div.cartResumeTotal:last-child .cartResumeRow span:last-child {
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=total.module.css.map */
